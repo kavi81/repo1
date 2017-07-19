@@ -1,0 +1,423 @@
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~
+$ dir
+1.0'
+1.9'
+2.0'
+2.5'
+3D\ Objects
+AppData
+Application\ Data
+Atlassian
+Contacts
+Cookies
+default-soapui-workspace.xml
+Desktop
+Documents
+Downloads
+Favorites
+Google\ Drive
+jenkins
+Links
+Local\ Settings
+Music
+My\ Documents
+NetHood
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{ca26f509-52f8-11e7-94b6-e2897edbb3ce}.TM.blf
+NTUSER.DAT{ca26f509-52f8-11e7-94b6-e2897edbb3ce}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{ca26f509-52f8-11e7-94b6-e2897edbb3ce}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+OneDrive
+Oracle
+Pictures
+PrintHood
+Recent
+ruby_test_output1
+ruby_test_output1.html
+ruby_test_output2
+ruby_test_output2.html
+ruby_test_output3.html
+RubymineProjects
+Saved\ Games
+Searches
+SendTo
+soapui-settings.xml
+SoapUI-Tutorials
+Start\ Menu
+Templates
+Videos
+VirtualBox\ VMs
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~
+$ mkdir git
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~
+$ cd git
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git
+$ dir
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git
+$ git init
+Initialized empty Git repository in C:/Users/DESKTOP_SS/git/.git/
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ dir
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ dir .git
+config  description  HEAD  hooks  info  objects  refs
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ dir
+first.txt.txt
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ dir
+first.txt
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git add first.txt
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   first.txt
+
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git commit
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'DESKTOP_SS@DESKTOP-KHVT9EP.(none)')
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git config --global kavi81
+error: key does not contain a section: kavi81
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git config --global user.name kavi81
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   first.txt
+
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git -log
+Unknown option: -log
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git commit
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'DESKTOP_SS@DESKTOP-KHVT9EP.(none)')
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git commit -m "First commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'DESKTOP_SS@DESKTOP-KHVT9EP.(none)')
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git remote add origin https://github.com/kavi81
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git remote -v
+origin  https://github.com/kavi81 (fetch)
+origin  https://github.com/kavi81 (push)
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git commit -m "First commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'DESKTOP_SS@DESKTOP-KHVT9EP.(none)')
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git config --global user.name "kavi81"
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git commit -m "First commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'DESKTOP_SS@DESKTOP-KHVT9EP.(none)')
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git config --global user.email "kavi.satishbabu@gmail.com"
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git commit -m "First commit"
+[master (root-commit) d3fdb8e] First commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 first.txt
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git push --set-upstream origin master
+remote: Not Found
+fatal: repository 'https://github.com/kavi81/' not found
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git push remote --set-upstream origin master
+error: src refspec origin does not match any.
+error: failed to push some refs to 'remote'
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git push origin master
+remote: Not Found
+fatal: repository 'https://github.com/kavi81/' not found
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git remote add origin https://github.com/kavi81/Hello-world.git
+fatal: remote origin already exists.
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git remote set-url origin https://github.com/kavi81/Hello-world.git
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git remote -v
+origin  https://github.com/kavi81/Hello-world.git (fetch)
+origin  https://github.com/kavi81/Hello-world.git (push)
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git push origin master
+To https://github.com/kavi81/Hello-world.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/kavi81/Hello-world.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git remote -v
+origin  https://github.com/kavi81/Hello-world.git (fetch)
+origin  https://github.com/kavi81/Hello-world.git (push)
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git remote set-url https://github.com/kavi81/repo1.git
+usage: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    --push                manipulate push URLs
+    --add                 add URL
+    --delete              delete URLs
+
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git remote set-url push https://github.com/kavi81/repo1.git
+fatal: No such remote 'push'
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git remote set-url origin https://github.com/kavi81/repo1.git
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ remote -v
+bash: remote: command not found
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git remote -v
+origin  https://github.com/kavi81/repo1.git (fetch)
+origin  https://github.com/kavi81/repo1.git (push)
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git push origin master
+To https://github.com/kavi81/repo1.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/kavi81/repo1.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git fetch
+warning: no common commits
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/kavi81/repo1
+ * [new branch]      master     -> origin/master
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git add first.txt
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git commit -m "initial checkin"
+On branch master
+nothing to commit, working tree clean
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git push origin master
+To https://github.com/kavi81/repo1.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/kavi81/repo1.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git fetch origin
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ dir
+first.txt
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git pull https://github.com/kavi81/repo1.git origin
+fatal: Couldn't find remote ref origin
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git push -force origin master
+error: did you mean `--force` (with two dashes ?)
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git push --force origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 230 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/kavi81/repo1.git
+ + f9a5f95...d3fdb8e master -> master (forced update)
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (master)
+$ git checkout -b b1
+Switched to a new branch 'b1'
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (b1)
+$ git commit "branch b1"
+error: pathspec 'branch b1' did not match any file(s) known to git.
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (b1)
+$ git add first.txt
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (b1)
+$ git commit "branch b1"
+error: pathspec 'branch b1' did not match any file(s) known to git.
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (b1)
+$ git commit -m "branch b1"
+[b1 296f20c] branch b1
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (b1)
+$ git push b1
+fatal: 'b1' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (b1)
+$ git push origin b1
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 276 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/kavi81/repo1.git
+ * [new branch]      b1 -> b1
+
+DESKTOP_SS@DESKTOP-KHVT9EP MINGW64 ~/git (b1)
+$
