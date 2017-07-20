@@ -1,0 +1,10 @@
+git init
+git config --global user.name "kavi81"
+git config --global user.email "kavi.satishbabu@gmail.com"
+git remote add origin https://github.com/kavi81/repo1.git
+git remove -v 
+
+git add <file-name>
+git commit -m "initial checkin"
+git push --force origin master
+
