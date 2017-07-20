@@ -1,5 +1,9 @@
 Initial document
+<<<<<<< HEAD
 created branch b1
 additional comments
 
 another comments
+=======
+created branch b1
+>>>>>>> b1
